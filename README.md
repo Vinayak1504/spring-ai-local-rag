@@ -4,7 +4,7 @@ A local Retrieval-Augmented Generation (RAG) application built with Spring Boot 
 
 This project demonstrates how to build a local AI application that can read PDF documents, split them into chunks, generate embeddings, store them in a vector store, retrieve relevant information, and use a local LLM to answer questions.
 
-## 🚀 Features
+## Features
 
 - Local AI chat using Ollama
 - Qwen 0.5B as the chat model
@@ -22,7 +22,7 @@ This project demonstrates how to build a local AI application that can read PDF 
 - Retrieval-Augmented Generation (RAG)
 - Question answering using information retrieved from documents
 
-## 🛠️ Technologies
+## Technologies
 
 - Java
 - Spring Boot
@@ -34,7 +34,7 @@ This project demonstrates how to build a local AI application that can read PDF 
 - SimpleVectorStore
 - REST API
 
-## 📋 Requirements
+## Requirements
 
 Before running the project, install:
 
@@ -51,7 +51,7 @@ ollama pull nomic-embed-text
 
 Make sure Ollama is running locally.
 
-## ⚙️ Configuration
+## Configuration
 
 The application uses Ollama locally.
 
@@ -65,7 +65,7 @@ spring.ai.ollama.embedding.options.model=nomic-embed-text
 
 No paid cloud AI API is required for the current version.
 
-## ▶️ Running the Application
+## Running the Application
 
 Clone the repository:
 
@@ -97,7 +97,7 @@ The application will start on:
 http://localhost:8080
 ```
 
-## 📄 PDF RAG
+## PDF RAG
 
 Place a text-based PDF in:
 
@@ -133,7 +133,7 @@ Nomic Embeddings
 Vector Store
 ```
 
-## 🔎 Semantic Search
+## Semantic Search
 
 The project provides semantic document search.
 
@@ -145,7 +145,7 @@ GET /search?query=How does Java store data using keys?
 
 The application converts the query into an embedding and searches for semantically similar document chunks.
 
-## 🤖 RAG Question Answering
+## RAG Question Answering
 
 Ask questions using:
 
@@ -162,13 +162,13 @@ The application:
 5. Sends the context and question to Qwen.
 6. Returns the generated answer.
 
-## 🧠 Conversation Memory
+## Conversation Memory
 
 The project also demonstrates conversation memory using Spring AI.
 
 This allows follow-up questions to use information from previous messages in the same conversation.
 
-## 📚 Learning Progress
+## Learning Progress
 
 This project was developed incrementally while learning Spring AI.
 
@@ -198,7 +198,7 @@ PDF Ingestion
 RAG
 ```
 
-## ⚠️ Current Limitations
+## Current Limitations
 
 The current version is primarily a learning and demonstration project.
 
@@ -208,7 +208,7 @@ The current version is primarily a learning and demonstration project.
 - Authentication is not implemented.
 - The application is not intended as a production deployment.
 
-## 🔮 Future Improvements
+## Future Improvements
 
 Planned improvements include:
 
@@ -222,7 +222,7 @@ Planned improvements include:
 - REST API documentation
 - Docker support
 
-## 👨‍💻 Author
+## Author
 
 **Siddhi Vinayak**
 
