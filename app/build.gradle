@@ -26,6 +26,7 @@ dependencies {
     implementation 'org.springframework.ai:spring-ai-starter-model-ollama'
     implementation 'org.springframework.ai:spring-ai-vector-store'
     implementation 'org.springframework.ai:spring-ai-pdf-document-reader'
+    implementation 'org.springframework.ai:spring-ai-vector-store-advisor'
 //    implementation 'org.springframework.ai:spring-ai-advisors'
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
